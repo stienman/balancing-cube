@@ -11,3 +11,7 @@ This repository contains all design, documentation, configuration and other file
 A YouTube video demonstrating the balancing cube is available [here](https://youtu.be/zGclFqkZBsk).
 
 More information about this project and my other projects is available on my [website](https://willempennings.nl/balancing-cube/).
+
+
+Extra info from webpage:
+Later, during integration and testing of the various components, I found that I had made a few small routing errors which I quickly corrected using bodge wires. It turns out that only one digital input on the motor controller supports PWM and I routed the PWM signal to another (unsupported) input.
